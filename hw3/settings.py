@@ -47,6 +47,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'polls',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -118,3 +119,5 @@ LOGGING = {
         }
     }
 }
+
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
